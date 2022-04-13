@@ -139,7 +139,7 @@ To read more detailed documentation about the default configuration, read the pa
 
 ![vsi](./.docs/images/mixed.png)
 
---- 
+---
 
 ## Getting Started 
 
@@ -151,7 +151,7 @@ To read more detailed documentation about the default configuration, read the pa
 
 ## Provisioning with the toolchain
 
-You can provision an IBM Cloud Toolchain utilizing the template to create a CI/CD pipeline of executing Secure Landing zone.  After reading the instructions on using the [IBM Cloud Toolchain Template](./.docs/toolchain/toolchain-tmplt.md), click the "Deploy to IBM Cloud" button below to start the process.  If you do not see the button, please log into IBM Cloud.
+You can provision an IBM Cloud Toolchain utilizing the template to create a CI/CD pipeline of executing Secure Landing zone.  Click the button below to start the process. 
 
 Once completed process: 
 1. Click Repository tile
@@ -159,7 +159,7 @@ Once completed process:
 3. Choose the appropriate pattern, edit `terraform.tfvars` file and commit. 
 4. Please read the [Working with IBM Cloud Toolchains](./.docs/toolchain/toolchain.md) for configuration and how to run the Toolchain 
 
-[![Deploy to IBM Cloud](https://cloud.ibm.com/devops/setup/deploy/button_x2.png)](https://cloud.ibm.com/devops/setup/deploy?repository=https://github.com/open-toolchain/landing-zone.git&env_id=ibm:yp:us-south&pipeline_type=tekton)
+[![Deploy to IBM Cloud](https://cloud.ibm.com/devops/setup/deploy/button_x2.png)](https://cloud.ibm.com/devops/setup/deploy?repository=https://github.ibm.com/slz-v2-poc/landing-zone.git&env_id=ibm:yp:us-south&pipeline_type=tekton)
 
 ## Running the scripts locally
 
